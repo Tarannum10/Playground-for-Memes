@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 import '../styles/nav.css'
-import { BadgePlus } from 'lucide-react';
+import { BadgePlus } from "lucide-react";
 import { House } from 'lucide-react';
 import { BellRing } from 'lucide-react';
 import { Compass } from 'lucide-react';

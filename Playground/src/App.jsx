@@ -9,10 +9,13 @@ import Profile from './Components/profile'
 import Login from './Components/login'
 import Navbar from './Components/navbar'
 import Error from './Components/error'
+import Register from './Components/register'
+import { useLogged } from './context/loginContext'
 
 function App() {
  
-
+  const {isLogged,username}=useLogged()
+  console.log(isLogged,username)
   return (
     <>
       <Navbar/>
@@ -23,6 +26,7 @@ function App() {
         <Route path='/create' element={<Create/>}/>
         <Route path='/profile' element={<Profile/>}/>
         <Route path='/login' element={<Login/>}/>
+        <Route path='/register' element={<Register/>}/>
         <Route path='*' element={<Error/>}/>
       </Routes>
     </>
