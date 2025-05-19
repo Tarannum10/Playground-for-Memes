@@ -72,11 +72,11 @@
 }
 
 .logo p {
-    color: #cfd6e2;
+    color: #d4d4d4;
     font-size: 0.9rem;
 }
 .gradient-text {
-    background: linear-gradient(to right, #fd3134, #ff9191); /* red to maroon */
+    background: linear-gradient(to right, #fd2529, #fc7a7a,#ffd9d9); /* red to maroon */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

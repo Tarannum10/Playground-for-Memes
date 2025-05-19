@@ -9,14 +9,13 @@ import { LogIn } from 'lucide-react';
 import { Laugh } from 'lucide-react';
 
 
-
 const Navbar=()=>{
 
     return(
         <>
             <div className="nav">
                  <div className="logo">
-                    <h1><Laugh/> <span className="gradient-text">HeeHeee</span></h1>
+                    <h1 className="gradient-text"><Laugh/>HeeHeee</h1>
                     <p>Your meme destination</p>
                 </div>
                 <NavLink className='page' to='/'> <House/> Memezz</NavLink>

@@ -11,6 +11,7 @@ import Navbar from './Components/navbar'
 import Error from './Components/error'
 import Register from './Components/register'
 import { useLogged } from './context/loginContext'
+import Drafts from './Components/drafts'
 
 function App() {
  
@@ -27,6 +28,7 @@ function App() {
         <Route path='/profile' element={<Profile/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
+        <Route path='/drafts' element={<Drafts/>}/>
         <Route path='*' element={<Error/>}/>
       </Routes>
     </>

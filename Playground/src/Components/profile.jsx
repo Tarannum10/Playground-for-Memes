@@ -1,7 +1,9 @@
+import '../styles/profile.css'
+
 const Profile=()=>{
     return (
         <>
-            <h1>welcome to Profile</h1>
+            <div className="line"></div>
         </>
     )
 }

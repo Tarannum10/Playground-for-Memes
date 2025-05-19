@@ -1,0 +1,65 @@
+.drafts-page {
+  padding: 2rem;
+  margin-left: 15%;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.drafts-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: flex-start;
+}
+
+.draft-card {
+  border: 1px solid #ccc;
+  width: 250px;
+  border-radius: 8px;
+  background: #fafafa;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.draft-image {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.draftText {
+  position: absolute;
+  width: 100%;
+  padding: 0 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  word-break: break-word;
+}
+
+.draftText.top {
+  top: 10px;
+}
+
+.draftText.bottom {
+  bottom: 10px;
+}
+
+.delete {
+  background-color: rgb(107, 22, 22);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  margin: 12px 0;
+  cursor: pointer;
+}
